@@ -1,0 +1,762 @@
+@font-face{
+    font-family: 'Calligrapgh Modern';
+    src: url(fonts/calmod.ttf);
+    src: url(fonts/calmod.ttf) format('ttf'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Pangolin';
+    src: url(fonts/Pangolin-Regular.ttf);
+    src: url(fonts/Pangolin-Regular.ttf) format('ttf'),
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Bitter Thin';
+    src: url(fonts/Bitter-Italic-VariableFont_wght.ttf);
+    src: url(fonts/Bitter-Italic-VariableFont_wght.ttf) format('ttf'),
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    overflow-x: hidden;
+    border: 0;
+    margin: 0;
+    position: absolute;
+    width: 1366px;
+    height: 3840px;
+    background: #FFFFFF;
+}
+.fk
+{
+    position: absolute;
+    width: 992.1px;
+    height: 906px;
+    left: 574px;
+    top: 83px;
+
+}
+.treug2
+{
+    position: absolute;
+    width: 2149.01px;
+    height: 1183.95px;
+    left: -22px;
+    top: 895px;
+
+
+}
+.group4
+{
+    position: absolute;
+    width: 1366px;
+    height: 277px;
+    left: 0px;
+    top: 0px;
+}
+.treug1
+{
+    position: absolute;
+    width: 562.46px;
+    height: 952.48px;
+    left: 0px;
+    top: 193px;
+}
+.f
+{
+    position: absolute;
+    width: 2511.69px;
+    height: 1631.52px;
+    left: 0px;
+    top: 1752px;
+}
+.bok1
+{
+    position: absolute;
+    left: 17.2%;
+    right: 69.69%;
+    top: 1704px;
+    bottom: 47.81%;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.bok2
+{
+    position: absolute;
+    left: 35.07%;
+    right: 51.83%;
+    top: 1704px;
+    bottom: 47.81%;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.bok3
+{
+    position: absolute;
+    left: 53%;
+    right: 33.89%;
+    top: 1704px;
+    bottom: 47.81%;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.bok4
+{
+    position: absolute;
+    left: 71.01%;
+    right: 15.89%;
+    top: 1704px;
+    bottom: 47.81%;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+
+}
+.bok1:hover
+{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.bok2:hover
+{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.bok3:hover
+{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.bok4:hover
+{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.treug3
+{
+    position: absolute;
+    width: 534px;
+    height: 896px;
+    left: 0px;
+    top: 2787px;
+
+}
+.treug4
+{
+    position: absolute;
+    width: 530.78px;
+    height: 507.28px;
+    left: 1151.83px;
+    top: 2911.28px;
+}
+.ni
+{
+    position: absolute;
+    width: 1366px;
+    height: 421px;
+    left: 0px;
+    top: 3419px;
+}
+.poh
+{
+    position: absolute;
+    left: 75.84%;
+    right: 18.74%;
+    top: 87.27%;
+    bottom: 10.96%;
+}
+.strl
+{
+    position: absolute;
+    left: 7.83%;
+    right: 89.24%;
+    top: 47.73%;
+    bottom: 51.22%;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+.strr
+{
+    position: absolute;
+    left: 89.24%;
+    right: 7.83%;
+    top: 47.73%;
+    bottom: 51.22%;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+
+}
+.sv
+{
+    position: absolute;
+    left: 59.52%;
+    right: 0.66%;
+    top: 9.87%;
+    bottom: 87.19%;
+
+    font-family: Calligraph Modern;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 91px;
+    line-height: 109px;
+
+    color: #FFFEFE;
+}
+.sv2
+{
+    position: absolute;
+    left: 3.22%;
+    right: 45.1%;
+    top: 10.49%;
+    bottom: 76.69%;
+
+    font-family: Pangolin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 42px;
+
+    color: #000000;
+}
+.text1
+{
+    position: absolute;
+    left: 4.69%;
+    right: 60.61%;
+    top: 26.22%;
+    bottom: 71.98%;
+
+    font-family: Calligraph Modern;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 59px;
+    line-height: 71px;
+
+    color: #000000;
+}
+.text2
+{
+    position: absolute;
+    left: 1.46%;
+    right: 0.22%;
+    top: 28.49%;
+    bottom: 56.15%;
+
+    font-family: Pangolin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 31px;
+    line-height: 35px;
+
+
+
+    color: #000000;
+}
+.pois
+{
+    position: absolute;
+    left: 56.66%;
+    right: 25.7%;
+    top: 0.42%;
+    bottom: 98.57%;
+
+    background: rgba(165, 162, 162, 0.3);
+    border: 1px solid #989898;
+    box-sizing: border-box;
+    border-radius: 18px;
+}
+.lup
+{
+    position: absolute;
+    width: 20px;
+    height: 19px;
+    left: 984px;
+    top: 26px;
+    opacity: 0.5;
+}
+.ov1
+{
+    position: absolute;
+    width: 194px;
+    height: 57px;
+    left: 539px;
+    top: 211px;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+.ov1:hover
+{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.ov2
+{
+
+    position: absolute;
+    width: 194px;
+    height: 57px;
+    left: 746px;
+    top: 211px;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+
+}
+.ov2:hover
+{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.ov3
+{
+    position: absolute;
+    width: 194px;
+    height: 57px;
+    left: 953px;
+    top: 211px;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+.ov3:hover
+{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.ov4
+{
+    position: absolute;
+    width: 194px;
+    height: 57px;
+    left: 1160px;
+    top: 211px;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+
+}
+.ov4:hover
+{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.av
+{
+    position: absolute;
+    width: 241px;
+    height: 39px;
+    left: 1054px;
+    top: 19px;
+
+    background: rgba(97, 0, 0, 0.8);
+    border: 1px solid #610000;
+    box-sizing: border-box;
+    border-radius: 18px;
+}
+.av:hover
+{
+    background-color: #BD0000;
+}
+.fac
+{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1305px;
+    top: 16px;
+
+    background: url(image.png);
+    mix-blend-mode: darken;
+}
+.text3
+{
+    font-family: Bitter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 29px;
+    line-height: 35px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.poisk
+{
+    position: absolute;
+    left: 58.27%;
+    right: 26.5%;
+    top: 0.83%;
+    bottom: 98.72%;
+
+    font-family: Bitter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+
+    color: rgba(9, 9, 9, 0.81);
+}
+.opisanieono
+{
+    position: absolute;
+    left: 3.88%;
+    right: 13.69%;
+    top: 54.24%;
+    bottom: 42.01%;
+
+    font-family: Pangolin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 31px;
+    line-height: 32px;
+
+    color: #000000;
+}
+.ka3
+{
+    position: absolute;
+    left: 8.13%;
+    right: 55.78%;
+    top: 58.7%;
+    bottom: 32.47%;
+    width:493px;
+    height: 339px;
+
+}
+.ka4
+{
+    position: absolute;
+    left: 55.2%;
+    right: 8.71%;
+    top: 58.7%;
+    bottom: 32.47%;
+    width:540px;
+    height: 277px;
+}
+.text4
+{
+    position: absolute;
+    width: 1164px;
+    height: 36px;
+    left: 83px;
+    top: 3106px;
+
+    font-family: Pangolin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 36px;
+    /* identical to box height, or 144% */
+
+    text-align: right;
+
+    color: #000000;
+}
+.text5
+{
+    position: absolute;
+    left: 23.06%;
+    right: 7.69%;
+    top: 82.24%;
+    bottom: 15.96%;
+
+    font-family: Pangolin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 36px;
+    /* or 144% */
+
+    text-align: right;
+
+    color: #000000;
+}
+.text6
+{
+    position: absolute;
+    left: 12.08%;
+    right: 14.71%;
+    top: 84.45%;
+    bottom: 11.64%;
+
+    font-family: Pangolin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 36px;
+    /* or 144% */
+
+
+    color: #000000;
+
+}
+.text7
+{
+    position: absolute;
+    left: 44.44%;
+    right: 42.31%;
+    top: 87.76%;
+    bottom: 11.04%;
+
+    font-family: Pangolin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
+    /* or 140% */
+
+    text-align: right;
+
+    color: #000000;
+}
+.poht
+{
+    position: absolute;
+    left: 83.24%;
+    right: 3.15%;
+    top: 87.89%;
+    bottom: 10.96%;
+
+    font-family: Pangolin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+
+    color: #000000;
+}
+.poht:hover
+{
+    color: #B60000;
+}
+.drf
+{
+    position: absolute;
+    left: 65.15%;
+    right: 2.05%;
+    top: 77.73%;
+    bottom: 21.12%;
+
+    font-family: Pangolin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+
+    color: #000000;
+}
+.drf:hover
+{
+    color: #B60000;
+}
+.dr
+{
+    position: absolute;
+    left: 57.32%;
+    right: 36.9%;
+    top: 76.77%;
+    bottom: 21.35%;
+}
+.kon
+{
+    position: absolute;
+    left: 10.47%;
+    right: 3.59%;
+    top: 90.44%;
+    bottom: 3.1%;
+
+    font-family: Calligraph Modern;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.vkcs
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 256px;
+    top: 3646px;
+
+}
+.vkcs2
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 256px;
+    top: 3646px;
+
+    opacity: 0;
+
+}
+
+.vkcs2:hover
+{
+    opacity: 1;
+}
+.facebookcs
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 443px;
+    top: 3646px;
+
+}
+
+.facebookcs2
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 443px;
+    top: 3646px;
+    opacity: 0;
+
+}
+.facebookcs2:hover
+{
+    opacity: 1;
+}
+.instacs
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 629px;
+    top: 3646px;
+}
+.instacs2
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 629px;
+    top: 3646px;
+    opacity: 0;
+}
+.instacs2:hover
+{
+    opacity: 1;
+}
+.youtubecs
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 815px;
+    top: 3646px;
+}
+.youtubecs2
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 815px;
+    top: 3646px;
+    opacity: 0;
+}
+.youtubecs2:hover
+{
+    opacity: 1;
+}
+.twittercs
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 1000px;
+    top: 3646px;
+
+}
+.twittercs2
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 1000px;
+    top: 3646px;
+    opacity: 0;
+}
+.twittercs2:hover
+{
+    opacity: 1;
+}
+
+.strr:hover
+{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.strl:hover
+{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.siyanie
+{
+    position: absolute;
+    left: 53.66%;
+    right: 6.37%;
+    top: 53.85%;
+    bottom: 38.65%;
+}
+.ono
+{
+    position: absolute;
+    left: 31.41%;
+    right: 28.62%;
+    top: 68.7%;
+    bottom: 23.8%;
+}
+.mobile
+{
+    position: absolute;
+    width: 41px;
+    height: 72px;
+    left: 36px;
+    top: 192px;
+}
+
+
