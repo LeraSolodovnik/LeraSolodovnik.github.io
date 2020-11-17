@@ -41,9 +41,9 @@ body {
 .treug2
 {
     position: absolute;
-    width: 2511.69px;
+    width: 100%;
     height: 1183.95px;
-    left: -22px;
+    left: 0px;
     top: 895px;
 
 
@@ -255,6 +255,7 @@ body {
 .text2
 {
     position: absolute;
+    width: 97%;
     left: 1.46%;
     right: 0.22%;
     top: 28.49%;
